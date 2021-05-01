@@ -1,0 +1,175 @@
+*{margin: 0px
+    ;
+padding: 0px;
+background: black;}
+
+body {background: black;
+color: #fff;}
+
+div{
+        margin: auto;
+    margin-top: 10px;
+    overflow: hidden;
+}
+
+header{
+background: black;
+height: 60px;
+align-items: center;
+}
+header img{
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+ }
+
+header li{
+    float: left;
+    list-style: none;
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.623);
+}
+header a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgba(255, 255, 255, 0.836);
+margin-top: 20px;
+margin-right: 10px;
+}
+
+li:hover a{
+    color: white;
+}
+
+header nav{
+    float: right;
+    margin-right: 150px;
+}
+
+#imagencall{
+height: 400px;
+
+}
+
+
+
+section{
+    width: 900px;
+height: 700px;
+float: left;
+background: black;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 30px;
+margin-right: 10px;}
+
+section h3{
+    color: gold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    
+}
+
+section h1{
+    color: gold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 40px;
+}
+
+section a{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.664);
+    text-decoration: none;
+    background: gold;
+    float: right;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+section :hover a{
+    color: rgb(0, 0, 0);
+}
+
+section li{
+    display: table-cell;
+}
+section img{
+    width: 500px;
+    height: 300px;
+}
+section div{
+    margin-top: 80px;
+    width: 500px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+
+section ul{
+    position: absolute;
+    animation-name: call;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes call{
+    0%{
+        left: 0;
+    }   
+    25%{
+        left: -500px;
+    }
+    50%{ 
+        left: -1000px;
+    }
+    75%{
+        left: -500px;
+    }
+    100%{
+        left: 0px;
+    }
+    
+}
+
+aside{
+width: 450px;
+height: 500px;
+float: right;
+margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10px;}
+
+footer{
+    height: 100px;
+    clear: both;
+    }
+
+footer li{
+    margin-left: 30px ;
+    float: left;
+    list-style: none;
+    padding: 15px;
+    color: rgba(255, 255, 255, 0.623);
+    margin-top: 10px;
+}
+
+footer img{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 15px;
+    float: left;
+ }
+
+footer a{
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+color: rgba(255, 255, 255, 0.836);
+margin-top: 20px;
+margin-right: 10px;
+}
